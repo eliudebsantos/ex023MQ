@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+body{
+    background-color: white;
+    color: black;
+}
+
+nav{
+    display: none;
+}
+
+article{
+    background-color: gray;
+    color: back;
+}
+
+footer{
+    display: none;
+}
+
+article::after{
+    content: Meu nome é eliude;
+}
